@@ -4,9 +4,10 @@
     <title>Memory Game</title>
     <link type="text/css" rel="stylesheet" href="jquery-ui.min.css"> 
     <link type="text/css" rel="stylesheet" href="memory.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="jquery-ui.min.js"></script> 
-    <script src="memorygame.js"></script>
+    <script src="main.js" type="module"></script>
 </head>
 <body>
     <header>
@@ -20,9 +21,9 @@
     <main>         
         <div id="tabs"> 
             <ul>
-                <li><a href="#tabs-1" id="playgame">Play Game</a></li>
-                <li><a href="#tabs-2" id="viewrules">View Rules</a></li>
-                <li><a href="#tabs-3" id="settings">Settings</a></li>
+                <li><a href="#tabs-1" id="playgame">Play Game <i class="fa fa-angle-down"></i></a></li>
+                <li><a href="#tabs-2" id="viewrules">View Rules <i class="fa fa-angle-down"></i></a></li>
+                <li><a href="#tabs-3" id="settings">Settings <i class="fa fa-angle-down"></i></a></li>
             </ul>
             <div id="tabs-1">
                 <div id="cards"></div>
@@ -55,8 +56,18 @@
                 </select><br>
                 
                 <input type='button' id='save_settings' value='Save Settings'>
+                <br>
+                <h3>This Project was implemented and completed by Group 5 Consisting Of :</h3>
+                <ul>
+                    <li>Kennedy Mbano - <strong>8826852</strong></li>
+                    <li>Sairam Pagadala - <strong>8885592</strong></li>
+                    <li>Eric Khedia - <strong>8872338</strong></li>
+                    <li>Swapnil Sharma - <strong>8885488</strong></li>
+                </ul>
             </div>
         </div>
     </main> 
+   
+
 </body>
 </html>
